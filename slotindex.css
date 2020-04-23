@@ -1,0 +1,59 @@
+html {
+    background-image: url("image/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #8fb1ce;
+    font-family: "Microsoft JhengHei";
+
+}
+
+#BirdSlots {
+    display: block;
+    margin: 10% 0 auto;
+    text-align: center;
+    font-size: 10rem;
+    color: white;
+
+}
+
+#birdbanner {
+    display: block;
+    margin: 1rem auto;
+    background-image: url("image/birdbanner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 600px;
+    height: 147px;
+
+}
+
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 5rem;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 5px;
+    outline: none;
+    font-family: "Microsoft JhengHei";
+    border-color: #ffc446;
+    background-color: rgb(185, 17, 17);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+footer {
+    text-align: center;
+    font-family: "Microsoft JhengHei";
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+    color: white;
+}

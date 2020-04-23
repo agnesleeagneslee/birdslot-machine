@@ -1,0 +1,68 @@
+html,body{
+    background-image: url(image/background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;
+    overflow: hidden;
+    font-family: "Microsoft JhengHei";
+}
+div{
+    display: block;
+}
+#machineContainer{
+    margin: 0 auto;
+    width: 714px;
+    
+}
+
+#machine{
+    position: relative;
+    height: 1100px;
+    width: 843px;
+    background-image: url("image/slotup.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+#machineCenter div{
+    float: left;
+    height: 100%;
+}
+#machineCenter{
+    position: absolute;
+    height: 765px;
+    width: 843px;
+    top:0;
+
+}
+
+#slot{
+    width: 710px;
+    z-index: -1;
+
+}
+#slot img{
+    position: relative; /*容器裡bird3的相對位置*/
+    top:162px; 
+
+}
+#start{
+    height: 765px;
+    width: 129px;
+    z-index: 3;
+    position: relative;
+    right: 0;
+}
+#bird01{
+    left: 23.3%;
+
+}
+#bird02{
+    left: 26%;
+}
+#bird03{
+    left: 28%;
+}
+footer{
+    color: white;
+    text-align: center;
+}
